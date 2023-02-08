@@ -1,0 +1,54 @@
+* {
+  font-family: 'Comic Sans MS' ,cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background: bisque
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background: aquamarine;
+}
+
+th {
+  border: 2px solid red;
+}
+
+td {
+  border: 2px solid blue;
+  text-align: center;
+}
+
+.description {
+  text-align: left;
+}
+
+.edit a {
+  color: green;
+  text-decoration: none;
+}
+
+.delete a {
+  color: crimson;
+  text-decoration: none;
+}
+
+form button {
+  padding: 10px;
+  background: lightgreen;
+  border-radius: 5px;
+}
+
+form button:hover {
+  cursor: pointer;
+}
+
+form p {
+  margin-bottom: 5px;
+}
