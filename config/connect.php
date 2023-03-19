@@ -1,5 +1,5 @@
 <?php
-$connect = mysqli_connect('localhost', 'root', 'root', 'mydb2');
+$connect = mysqli_connect('localhost', 'elgrenka', 'root', 'mydb2');
 if (!$connect) {
     die('Error connecting to db');
 } else {
